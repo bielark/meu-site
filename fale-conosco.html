@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tec</title>
+    <link rel="stylesheet" type="text/css" href="inicio.css">
+     <link rel="stylesheet" type="text/css" href="fale.css">
+</head>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+       <hgroup>
+        <h1>top profissões</h1>
+        <h2>na minha opinião</h2>
+       </hgroup>
+
+    <nav id="menu">
+
+        <ul>
+            <li><a href="index.html">home</a></li>
+             <li><a href="cloud.html">Cloud computing </a></li>
+             <li><a href="desenvolvedor.html">Desenvolvedor de Software</a></li>
+            <li><a href="dados.html">Analista de dados </a></li>
+            <li><a href="sobre.html">sobre o autor </a></li>
+            <li><a href="fale-conosco.html">Fale conosco</a></li>
+        </ul>
+    </nav>
+    </header>
+
+
+                <h3>fale conosco</h3>
+
+
+<form method="post" id="idContato" action="mailto:gabrielark97@gmail.com" oninput="calc_total()">
+
+        <fieldset id="idUsuario">
+
+            <legend>Identificação do Usuário</legend>
+            <p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="20" maxlength="40" placeholder="nome completo"> </p>
+            <p><label for="idSenha">Senha:</label><input type="password" name="nSenha"  id="idSenha" size="8" maxlength="8" placeholder="ate 8 digitos"> </p>
+            <p><label for="idEmail">E-mail:</label><input type="email" name="nEmail" id="idEmail" size="20" maxlength="40"> </p>
+               <fieldset id="idSexo"><legend>Sexo:</legend>
+                   <input type="radio" name="nSexo" id="idMasc" checked><label for="idMasc"> Masculino</label><br>
+                   <input type="radio" name="nSexo" id="idFem"><label for="idFem"> Feminino</label>
+               </fieldset>
+            <p><label for="idNasc">Data de Nascimento:</label><input type="date" name="nNasc" id="idNasc"></p>
+        </fieldset>
+
+
+
+        <fieldset id="idMesagem">
+
+            <legend>Mensagem do Usuário</legend>
+            <p><label for="idMsg">Mensagem:</label>
+                <textarea name="mMsg" id="idMsg" cols="45" rows="5" maxlength="250" placeholder="deixa aqui sua mensagem"></textarea>
+            </p>
+        </fieldset>
+
+
+         <input type="image"src="botao-enviar.png" name="nEnviar">
+
+    </form>
+
+</article></section>
+ <footer id="rodape">
+        <p> <a href="https://www.instagram.com/bielark/" target="_blank">instagram</a>|<a href="https://twitter.com/" target="_blank"> Twitter</a></p>
+    </footer>
+</div>
+</body>
+</html>
